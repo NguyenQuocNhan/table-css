@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #cacaca;
+}
+
+table {
+  background-color: #000C35;
+  border-radius: 12px;
+  border-collapse: collapse;
+  overflow: hidden;
+  padding: 13px;
+  text-align: center;
+  overflow-x: scroll;
+}
+
+tr {
+  width: fit-content;
+  margin: .5rem;
+  display: flex;
+  align-items: center;
+}
+
+th:not(:last-child) {
+  background-color: #fff;
+  width: 12rem;
+  font-size: 12px;
+  padding: .7rem 2rem .7rem 2rem;
+}
+
+td:not(:last-child) {
+  background-color: #fff;
+  width: 12rem;
+  font-size: 12px;
+  padding: .7rem 2rem .7rem 2rem;
+}
+
+th:nth-child(4) {
+  text-align: center
+}
+
+td:first-child, th:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+td:nth-child(3), th:nth-child(3) {
+  border-radius: 0 6px 6px 0;
+}
+
+th:last-child {
+  margin: .2rem 6px;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview {
+  margin: .2rem 6px;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 11px;
+  width: 56px;
+  height: 29px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn-update {
+  background-color: #7737FF;
+  border-radius: 6px 12px 0 6px;
+}
+
+.btn-delete {
+  background-color: #FF2B51;
+  border-radius: 0 6px 6px 12px;
+}
